@@ -185,9 +185,8 @@ export const projects = {
             period: "2021.12 ~ ing",
             link: "http://ueong.zmeta.io",
             desc: [
-                { main: "사업자 등록 후 현재 스마트스토어 실서비스중", sub: [] },
-                { main: "서비스화를 목적으로 개발중이며, 현재 CBT로 3명 사용중", sub: [] },
                 { main: "주요기능", sub: ['상품 일괄 등록', '상품 자동재고 관리', '발주넣기', '송장등록'] },
+                { main: "여러 도매처 사이트들의 상품, 주문을 통합적으로 관리를 할 수 있으며, 일부 유저들에게만 CBT 진행중", sub: [] },
             ],
             keywords: ["React", "Ant Design", "Typescript", "Redux", 'NestJS', 'AWS', 'Prettier', 'Puppeteer'],
             folder: "shopto",
@@ -200,7 +199,8 @@ export const projects = {
             period: "2021.10.18 ~ 2021.10.29",
             link: "",
             desc: [
-                { main: "외주 작업", sub: [] },
+                { main: "외주 작업으로 진행 되었으며, 배달의민족, 요기요, 쿠팡이츠 3개의 사이트 리뷰와 정산내역을 통합적이 관리 할 수 있음", sub: [] },
+                { main: "해당 사이트들 스크립트를 직접 분석하여 약 100개 미안의 계정들을 딜레이 없이 한번에 로그인처리를 할 수 있도록 개발함", sub: [] },
             ],
             keywords: ["React", "Material Design", "Typescript", "Recoil", 'NestJS', 'Centos7', 'MYSQL', 'Lint', 'Prettier', 'Puppeteer'],
             folder: "delivery",
@@ -213,9 +213,9 @@ export const projects = {
             period: "2020.05.01 ~ 2020.05.14",
             link: "",
             desc: [
-                { main: "외주 작업", sub: [] },
+                { main: "외주 작업으로 진행 되었으며, 특정 도매처의 모든 상품들을 스마트스토어와 연동하여 실시간으로 재고 및 판매상태를 업데이트 해주도록 개발함", sub: [] },
             ],
-            keywords: ["C#"],
+            keywords: ["C#", 'Selenium'],
             folder: "carepackage",
             images: ["1.png"],
             pdfs: []
@@ -225,8 +225,10 @@ export const projects = {
             subtitle: "1년정도 프로그램 판매 후 서비스 중단",
             period: "2010.12 ~ 2011.01",
             link: "",
-            desc: [ { main: "판매 목적으로 개발", sub: [] }, ],
-            keywords: ['C', 'IPC', 'Hook', 'DLL Injection', 'Themida'],
+            desc: [ 
+                { main: "판매 목적으로 개발이 되었으며, Dll Injection 기법을 통해 프로세스와 IPC 방식으로 메모릴 공유하여 후킹 할 수 있는 프로그램 개발", sub: [] },
+             ],
+            keywords: ['Win32API', 'C', 'IPC', 'Hook', 'DLL Injection', 'Themida'],
             folder: "memory",
             images: [],
             pdfs: [],
