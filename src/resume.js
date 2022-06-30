@@ -59,12 +59,15 @@ export const skills = {
             ]
         },
         {
-            category: 'Interest & Hobby',
+            category: 'Others',
             desc: [
                 { name: 'Reversing' },
-                { name: 'Game' },
-                { name: 'Football' },
-                { name: 'Snowboard' },
+                { name: 'Trello' },
+                { name: 'Redmin' },
+                { name: 'Jira' },
+                { name: 'Git' },
+                { name: 'Slack' },
+                { name: 'Jandi' },
             ]
         }
     ],
@@ -79,7 +82,10 @@ export const experience = {
             period: "2020.04 ~ 2021.12",
             link: "",
             desc: [
-                { main: "2021.01~2022.06(1년 6개월)", sub: [] }
+                { main: "2021.01~2022.06(1년 6개월)", sub: [] },
+                { main: "2명으로 시작해 초기 구축부터 진행하였으며, 기획, 개발, 인프라, 비용관리 등 여러가지 상황들을 고려하며 작업함", sub: [] },
+                { main: "프론트 경우 반응형 대응, 렌더링 최적화등 여러가지 상황에 고려하여 개발", sub: [] },
+                { main: "백엔드 경우 대용량 데이터 스트림 처리, 코어, 워커 영역 분할등 분산 처리에 집중하여 개발", sub: [] },
             ],
             keywords: ['VueJS', 'Nuxt', 'TailwindCSS', 'NodeJS', 'ActionHero', 'MYSQL', 'AWS' ],
             folder: "nisystem",
@@ -91,7 +97,8 @@ export const experience = {
             period: "",
             link: "",
             desc: [
-                { main: "2020.04~2022.06(2년 3개월)", sub: [] }
+                { main: "2020.04~2022.06(2년 3개월)", sub: [] },
+                { main: "상품과 정산관리만 집중적으로 할 수 있는 레거시 환경의 솔루션이며, 기능 유지보수 및 업데이트에 중점을 둠", sub: [] }
             ],
             keywords: ['AngularJS', 'NodeJS', 'MYSQL', 'AWS'],
             folder: "",
@@ -103,7 +110,9 @@ export const experience = {
             period: "",
             link: "",
             desc: [
-                { main: "2020.04~2020.05(2개월)", sub: [] }
+                { main: "2020.04~2020.05(2개월)", sub: [] },
+                { main: "IP 블락 이슈로 클라이언트 방식으로 개발을 진행하였으며, 추후 프록시 서버 도입을 하여 근본적인 문제를 해결함", sub: [] }
+
             ],
             keywords: ['C#', 'AWS Serverless'],
             folder: "",
@@ -115,7 +124,9 @@ export const experience = {
             period: "",
             link: "",
             desc: [
-                { main: "2021.10~2022.06(9개월)", sub: [] }
+                { main: "2021.10~2022.06(9개월)", sub: [] },
+                { main: "국내 6대 마켓(옥션, 지마켓, 인터파크, 11번가, 스마트스토어, 쿠팡)을 대상으로 통합 API 구축", sub: [] },
+                { main: "공통 인터페이스, 파라미터 필터링, 메소드 규칙 등 Rest API 규약에 맞게 개발진행", sub: [] },
             ],
             keywords: ['NodeJS', 'Express'],
             folder: "",
@@ -128,7 +139,8 @@ export const experience = {
             period: '2013.10 ~ 2020.04',
             link: "",
             desc: [
-                { main: "2018.02~2020.04(2년 3개월)", sub: [] }
+                { main: "2018.02~2020.04(2년 3개월)", sub: [] },
+                { main: "초기 구축단계부터 서비스까지 개발을 진행하였고, 그 이후에는  팀원들 일정 조율, 개발 피드백, 미팅등 전체적은 프로세스 관리를 진행함", sub: [] },
             ],
             keywords: ['AngularJS', 'NodeJS', 'MYSQL', 'AWS'],
             folder: "playauto",
@@ -140,7 +152,8 @@ export const experience = {
             period: "",
             link: "",
             desc: [
-                { main: "2015.01~2018.01(3년 1개월)", sub: [] }
+                { main: "2015.01~2018.01(3년 1개월)", sub: [] },
+                { main: "C# 기반 클라이언트 프로그램이며, 쓰레드 풀 기능을 통해 속도개선 및 클라이언트 마다 예외상황들을 로깅, 원격을 통해 문제를 해결함", sub: [] }
             ],
             keywords: ['C#', 'PHP', 'CodeIgniter', 'MYSQL'],
             folder: "",
@@ -152,7 +165,8 @@ export const experience = {
             period: "",
             link: "",
             desc: [
-                { main: "2013.10~2014.12(1년 3개월)", sub: [] }
+                { main: "2013.10~2014.12(1년 3개월)", sub: [] },
+                { main: "레거시 환경의 초기 솔루션이며, php, jquery를 기반으로 기능 유지보수 및 업데이트 중점을 둠", sub: [] },
             ],
             keywords: ['PHP', 'JQuery', 'MYSQL'],
             folder: "",
