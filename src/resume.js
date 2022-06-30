@@ -226,7 +226,7 @@ export const projects = {
             period: "2010.12 ~ 2011.01",
             link: "",
             desc: [ 
-                { main: "판매 목적으로 개발이 되었으며, Dll Injection 기법을 통해 프로세스와 IPC 방식으로 메모릴 공유하여 후킹 할 수 있는 프로그램 개발", sub: [] },
+                { main: "판매 목적으로 개발이 되었으며, Dll Injection 기법을 통해 프로세스와 IPC 방식으로 메모리를 공유하여 후킹 할 수 있는 프로그램 개발", sub: [] },
              ],
             keywords: ['Win32API', 'C', 'IPC', 'Hook', 'DLL Injection', 'Themida'],
             folder: "memory",
